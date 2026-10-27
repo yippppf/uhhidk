@@ -3,14 +3,31 @@
     font-style: normal;
     font-weight: 400;
     src: url("../LocalWebFiles/fonts/SourceSans3-Regular.ttf") format("truetype");
-    font-color: #b80101
+    
 }
 
 .main-header {
     font-size: 30px;
-    color: #333;
+    color: #b80101;
     font-family: 'Comic Sans MS', Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    width: min(400px, 100%);
+}
+
+.game-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.game-card > a {
+    align-self: center;
+    margin-top: 12px;
 }
 
 .btn,
