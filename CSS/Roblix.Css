@@ -3,6 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: url("../LocalWebFiles/fonts/SourceSans3-Regular.ttf") format("truetype");
+    font-color: #b80101
 }
 
 .main-header {
